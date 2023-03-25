@@ -1,4 +1,4 @@
-name: 'Todoist Readme'
+name: 'Todoist GitHub Readme'
 author: Abhishek Naidu
 description: '🚧 Updates README with your Todoist stats'
 
@@ -18,7 +18,7 @@ inputs:
     required: false
 
 runs:
-  using: "node12"
+  using: "node16"
   main: "dist/index.js"
 
 branding:
